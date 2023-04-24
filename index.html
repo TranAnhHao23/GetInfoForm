@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://crm.aumerp.com/assets/css/font-awesome/css/font-awesome.min.css">
+    <title>Opt-in Form</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+<div id="getfly-optin-form">
+    <div id="getfly-form" class="getfly-form">
+        <div class="getfly-row">
+            <label class="getfly-label getfly-label-c">Điện thoại<span
+                    class="getfly-span getfly-span-c">*</span></label><input type="text" name="account_phone"
+                                                                             id="account_phone"
+                                                                             class="getfly-input phone getfly-margin"
+                                                                             placeholder="SĐT Zalo *"></div>
+        <div class="getfly-row">
+            <label class="getfly-label getfly-label-c">Ngành đăng ký học.Đại học Kinh Tế Quốc Dân<span
+                    class="getfly-span getfly-span-c">*</span></label><select name="nganh_dang_ky_hoceneu"
+                                                                              id="course_route"
+                                                                              class="getfly-select getfly-margin">
+            <option value="none">Lộ trình học ngành *</option>
+            <option value="Ngân hàng">Ngân hàng</option>
+            <option value="Kế toán">Kế toán</option>
+            <option value="Quản trị kinh doanh">Quản trị kinh doanh</option>
+            <option value="Luật Kinh Tế">Luật Kinh Tế</option>
+            <option value="Luật">Luật</option>
+            <option value="Tài chính doanh nghiệp">Tài chính doanh nghiệp</option>
+        </select></div>
+        <div class=" getfly-btn">
+            <button class="getfly-button getfly-button-bg getfly-margin" onclick="sendEmail()">Nhận thông tin</button>
+        </div>
+    </div>
+</div>
+<iframe id="nr-ext-rsicon"
+        style="position: absolute; display: none; width: 50px; height: 50px; z-index: 2147483647; border-style: none; background: transparent;"></iframe>
+</body>
+</html>
